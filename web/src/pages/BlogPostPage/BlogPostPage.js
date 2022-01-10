@@ -1,19 +1,12 @@
-import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
+import BlogPostCell from 'src/components/BlogPostCell'
 
-const BlogPostPage = () => {
+const BlogPostPage = ({ id }) => {
   return (
     <>
       <MetaTags title="BlogPost" description="BlogPost page" />
 
-      <h1>BlogPostPage</h1>
-      <p>
-        Find me in <code>./web/src/pages/BlogPostPage/BlogPostPage.js</code>
-      </p>
-      <p>
-        My default route is named <code>blogPost</code>, link to me with `
-        <Link to={routes.blogPost()}>BlogPost</Link>`
-      </p>
+      <BlogPostCell id={id} />
     </>
   )
 }
