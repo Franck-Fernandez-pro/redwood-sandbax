@@ -6,7 +6,7 @@ const AboutPage = () => {
     <>
       <MetaTags title="About" description="About page" />
 
-      <p>
+      <p className="font-light">
         Ce site est créé avec pour seule intention de démontrer la puissance
         créative de Redwood! Oui, c'est très impressionant :D
       </p>

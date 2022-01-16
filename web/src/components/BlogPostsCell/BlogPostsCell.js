@@ -21,10 +21,10 @@ export const Failure = ({ error }) => (
 
 export const Success = ({ posts }) => {
   return (
-    <ul>
+    <div className="space-y-10">
       {posts.map((post, idx) => (
         <BlogPost key={idx} post={post} />
       ))}
-    </ul>
+    </div>
   )
 }
