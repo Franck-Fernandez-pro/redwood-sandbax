@@ -21,7 +21,7 @@ export const Success = ({ posts }) => {
   return (
     <div className="space-y-10">
       {posts.map((post, idx) => (
-        <BlogPost key={idx} post={post} />
+        <BlogPost key={idx} post={post} summary={true} />
       ))}
     </div>
   )
