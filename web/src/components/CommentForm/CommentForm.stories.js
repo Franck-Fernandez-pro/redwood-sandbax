@@ -4,7 +4,6 @@ export const generated = () => {
   mockGraphQLMutation('CreateCommentMutation', (variables, { ctx }) => {
     const id = parseInt(Math.random() * 1000)
     ctx.delay(1000)
-    console.log('🚀 ~ mockGraphQLMutation ~ variables', variables);
 
     return {
       comment: {

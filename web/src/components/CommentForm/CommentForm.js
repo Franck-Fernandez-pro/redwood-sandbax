@@ -31,7 +31,6 @@ const CommentForm = ({ postId }) => {
   const [hasPosted, setHasPosted] = useState(false)
 
   const onSubmit = (input) => {
-    console.log('🚀 ~ CommentForm ~ input', input)
     createComment({ variables: { input: { postId, ...input } } })
   }
   return (
