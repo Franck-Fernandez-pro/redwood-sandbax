@@ -4,6 +4,8 @@
 > the project has matured significantly and is already used in production by a number
 > of startups. We intend to have a 1.0 release candidate before the end of 2021 and
 > to release a truly production-ready 1.0 in early 2022.
+## Live
+[https://silly-mahavira-244e99.netlify.app](https://silly-mahavira-244e99.netlify.app)
 
 ## Getting Started
 - [Tutorial](https://redwoodjs.com/tutorial/welcome-to-redwood): getting started and complete overview guide.
